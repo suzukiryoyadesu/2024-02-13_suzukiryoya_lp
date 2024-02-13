@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 body {
     height:  100%;
 }
@@ -6,10 +10,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 2.5%;
 }
 
 .header__left {
-    width: 15%;
+    width: 12.5%;
 }
 
 .header__img-fr {
@@ -21,12 +26,12 @@ body {
 }
 
 .header__right {
-    width: 50%;
+    width: 30%;
 }
 
 .header__nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
     padding: 0px;
@@ -34,30 +39,30 @@ body {
 
 .header__nav-link {
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: 1.2vw;
     color: #818181;
 }
 
 .first__view {
     width: 100%;
-    height: 650px;
+    padding-top: 40%;
     position: relative;
 }
 
 .first__view-txt {
     position: absolute;
     top: 5%;
-    left: 10%;
+    left: 17%;
     z-index: 10;
 }
 
 .first__view-txt-en {
-    font-size: 3.5rem;
+    font-size: 4.48vw;
     color: #B31668;
 }
 
 .first__view-txt-ja {
-    font-size: 2rem;
+    font-size: 1.8vw;
     color: #B31668;
     margin: 0px;
 }
@@ -67,7 +72,7 @@ body {
 }
 
 .first__view-txt-fot {
-    font-size: 0.75rem;
+    font-size: 1.28vw;
     color: #818181;
 }
 
@@ -85,18 +90,18 @@ body {
 
 .news {
     width: 60%;
-    margin: 0px auto;
+    margin: 5% auto 0px;
 }
 
 .ttl__en {
     color: #B31668;
-    font-size: 0.75rem;
+    font-size: 1.12vw;
     margin-bottom: 0px;
 }
 
 .ttl__ja {
     color: #7D7D7D;
-    font-size: 2rem;
+    font-size: 1.84vw;
     font-weight: bold;
     margin-top: 0px;
 }
@@ -114,18 +119,20 @@ body {
 }
 
 .news__item-link {
+    font-size: 1.12vw;
     color: #818181;
     text-decoration: none;
 }
 
 .news__item-link-label {
+    font-size: 1.12vw;
     display: inline-block;
     color: #fff;
     text-align: center;
-    width: 15%;
+    width: 12.5%;
     border-radius: 30px;
     background-color: #B31668;
-    margin: 0px 2%;
+    margin: 0px 4%;
 }
 
 .about__bg {
@@ -150,16 +157,17 @@ body {
 }
 
 .about__content-txt-fr {
-    width: 45%;
+    width: 39%;
 }
 
 .about__content-txt {
     color: #818181;
     margin-top: 0px;
+    font-size: 1.12vw;
 }
 
 .about__content-img-fr {
-    width: 45%;
+    width: 39%;
 }
 
 .about__content-img {
@@ -185,12 +193,12 @@ body {
 }
 
 .service__content-box-left-img-fr {
-    width: 40%;
+    width: 37.5%;
     margin: 5% auto;
 }
 
 .service__content-box-left-img {
-    width: 100%;
+    width: 85%;
 }
 
 .service__content-box-left-txt-fr {
@@ -198,13 +206,14 @@ body {
 }
 
 .service__content-box-left-txt-ttl {
-    font-size: 1.25rem;
+    font-size: 1.6vw;
     color: #fff;
     text-align: center;
 }
 
 .service__content-box-left-txt {
     width: 80%;
+    font-size: 1.12vw;
     color: #fff;
     margin: 0px auto 20%;
 }
@@ -219,23 +228,25 @@ body {
 }
 
 .service__content-box-top-right-img-fr {
-    width: 30%;
+    width: 37.5%;
+    text-align: center;
 }
 
 .service__content-box-top-right-img {
-    width: 100%;
+    width: 85%;
 }
 
 .service__content-box-top-right-txt-fr {
-    width: 70%;
+    width: 62.5%;
 }
 
 .service__content-box-top-right-txt-ttl {
-    font-size: 1.25rem;
+    font-size: 1.6vw;
     color: #fff;
 }
 
 .service__content-box-top-right-txt {
+    font-size: 1.12vw;
     color: #fff;
     margin-right: 5%;
 }
@@ -250,23 +261,24 @@ body {
 }
 
 .service__content-box-bottom-right-img-fr {
-    width: 30%;
+    width: 37.5%;
 }
 
 .service__content-box-bottom-right-img {
-    width: 100%;
+    width: 85%;
 }
 
 .service__content-box-bottom-right-txt-fr {
-    width: 70%;
+    width: 67.5%;
 }
 
 .service__content-box-bottom-right-txt-ttl {
-    font-size: 1.25rem;
+    font-size: 1.6vw;
     color: #fff;
 }
 
 .service__content-box-bottom-right-txt {
+    font-size: 1.12vw;
     color: #fff;
     margin-right: 5%;
 }
@@ -289,23 +301,23 @@ body {
 
 .blog__card{
     width: 30%;
-    border-radius: 30px;
+    border-radius: 20px;
     background-color: #fff;
 }
 
 .blog__card-img-fr {
     width: 100%;
-    height: 60%;
     position: relative;
 }
 
 .blog__card-img{
     width:100%;
-    border-radius: 30px 30px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .blog__card-cat {
     display: inline-block;
+    font-size: 1.12vw;
     color: #fff;
     text-align: center;
     background-color: #B31668;
@@ -314,7 +326,7 @@ body {
     left: 0px;
     margin: 0px;
     padding: 2.5% 7.5%;
-    border-radius: 30px 0px 0px 0px;
+    border-radius: 20px 0px 0px 0px;
 }
 
 .blog__card-txt-fr {
@@ -323,6 +335,7 @@ body {
 }
 
 .blog__card-txt {
+    font-size: 1.12vw;
     color: #818181;
     font-weight: bold;
     margin: 7.5% 0px;
@@ -334,15 +347,16 @@ body {
     align-items: center;
     list-style: none;
     color: #818181;
-    font-size: 0.75rem;
+    font-size: 1.12vw;
     padding: 0px;
     margin: 7.5% 0px;
 }
 
 .blog__list-btn {
-    width: 25%;
+    width: 20%;
     display: block;
     text-align: center;
+    font-size: 1.12vw;
     color:  #B31668;
     border: solid 1px #B31668;
     border-radius: 30px;
@@ -368,6 +382,7 @@ body {
     text-align: left;
     padding: 1% 0px 1% 2%;
     border: solid 1px #818181;
+    font-size: 1.12vw;
     font-weight: bold;
     color: #818181;
     background-color: #F5F5F5;
@@ -377,6 +392,7 @@ body {
     width: 70%;
     padding: 1% 0px 1% 2%;
     border: solid 1px #818181;
+    font-size: 1.12vw;
     color: #818181;
 }
 
@@ -407,7 +423,7 @@ body {
 
 .company__link-ttl {
     width: 100%;
-    font-size: 2.25rem;
+    font-size: 1.84vw;
     font-weight: bold;
     color: #fff;
     text-decoration: none;
@@ -420,25 +436,27 @@ body {
 }
 
 .company__contact-txt {
+    font-size: 1.12vw;
     font-weight: bold;
     color: #818181;
     text-align: center;
     position: relative;
-    margin-bottom: 6%;
+    margin: 4% 0px;
 }
 
 .company__contact-txt::after {
     content: "";
-    width: 1px;
+    width: 2px;
     height: 150%;
     background-color: #B31668;
     position: absolute;
-    bottom: -175%;
+    bottom: -180%;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .company__contact-btn {
+    font-size: 1.12vw;
     color: #fff;
     text-decoration: none;
     width: 22.5%;
@@ -460,18 +478,18 @@ body {
     transform: translateY(-50%);
     background: url(../img/mailicon.svg) no-repeat;
     background-size: cover;
-    width: 30px;
-    height: 30px;
+    width: 10%;
+    padding-top: 10%;
 }
 
 .footer {
     width: 100%;
     background-color: #F5F5F5;
-    padding: 2.5% 0px;
+    padding: 1.5% 0px;
 }
 
 .footer__copy {
-    font-size: 0.75rem;
+    font-size: 0.96vw;
     color: #818181;
     text-align: center;
     display: block;
